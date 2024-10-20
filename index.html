@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICACS 2025 - Responsive Navbar with Dropdowns</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    Hello world
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="adit logo.jpg" alt="ICACS Logo">
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">About <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">ICACS 2025 <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Call for Papers</a></li>
+                        <li><a href="#">Important Dates</a></li>
+                        <li><a href="#">Registration</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Keynote Speakers</a></li>
+                <li><a href="#">Editors</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Committee <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Organizing Committee</a></li>
+                        <li><a href="#">Technical Committee</a></li>
+                        <li><a href="#">Advisory Board</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="submit-btn">
+                <a href="#" class="btn">Submit Paper</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <h1>Welcome to ICACS 2025</h1>
+            <p>Join us for the International Conference on Advanced Computing Systems</p>
+            <!-- Add more content here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
